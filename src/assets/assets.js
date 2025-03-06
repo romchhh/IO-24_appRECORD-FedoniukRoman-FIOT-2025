@@ -2,48 +2,41 @@ import menu from './images/menu.svg'
 import dropdown from './images/dropdown.svg'
 import me from './images/me.png'
 
-// лабораторна 1
-import list_photo from './images/laboratorna_1/list_photo.png'
-import list_code from './images/laboratorna_1/list_code.png'
-import image_photo from './images/laboratorna_1/image_photo.png'
-import image_code from './images/laboratorna_1/image_code.png'
-import table_photo from './images/laboratorna_1/table_photo.png'
-import table_code from './images/laboratorna_1/table_code.png'
+import index from './images/Lab1/index.png'
+import app from './images/Lab1/app.png'
+import list from './images/Lab1/list.png'
+import first_list from './images/Lab1/first_list.png'
+import footer from './images/Lab1/footer.png'
+import footer1 from './images/Lab1/footer1.png'
+import header from './images/Lab1/header.png'
+import header1 from './images/Lab1/header1.png'
 
-// лабораторна 2
-import tag_selector from './images/laboratorna_2/tag_selector.png'
-import tag_selector_photo from './images/laboratorna_2/tag_selector_photo.png'
-import class_selector from './images/laboratorna_2/class_selector.png'
-import class_selector_photo from './images/laboratorna_2/class_selector_photo.png'
-import font from './images/laboratorna_2/font.png'
-import table_lab2 from './images/laboratorna_2/table_lab2.png'
-import table_lab2_photo from './images/laboratorna_2/table_lab2_photo.png'
-import background from './images/laboratorna_2/background.png'
-import text_color from './images/laboratorna_2/text_color.png'
-import text_color_photo from './images/laboratorna_2/text_color_photo.png'
-import list_lab2 from './images/laboratorna_2/list_lab2.png'
-import list_lab2_photo from './images/laboratorna_2/list_lab2_photo.png'
+// Нові зображення  
+import class_selector from './images/Lab2/class_selector.png'
+import class_selector_photo from './images/Lab2/class_selector_photo.png'
+
+import screenshot1 from './images/Lab3/screenshot1.png';
+import screenshot2 from './images/Lab3/screenshot2.png';
+
+import adaptive_code from './images/Lab4/adaptive_code.png';
+import adaptive_page from './images/Lab4/adaptive_page.png';
 
 export const assets = {
     dropdown,
     menu,
     me,
-    list_photo,
-    list_code,
-    image_photo,
-    image_code,
-    table_photo,
-    table_code,
-    tag_selector,
-    tag_selector_photo,
+    index,
+    app,
+    list,
+    first_list,
+    footer,
+    footer1,
+    header,
+    header1,    
     class_selector,
     class_selector_photo,
-    font,
-    table_lab2,
-    table_lab2_photo,
-    background,
-    text_color,
-    text_color_photo,
-    list_lab2,
-    list_lab2_photo
+    screenshot1,
+    screenshot2,
+    adaptive_code,
+    adaptive_page
 }

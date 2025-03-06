@@ -1,4 +1,35 @@
 @import "tailwindcss";
+
 body {
     font-family: "Times New Roman", Times, serif;
+    background: linear-gradient(to bottom, #f8f9fa, #e0e7ff);
+    color: #333;
+    line-height: 1.6;
+    min-height: 100vh;
+    transition: background 0.3s ease;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #1e3a8a;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+p {
+    margin-bottom: 1rem;
+}
+
+a {
+    color: #1e3a8a;
+    text-decoration: underline;
+    transition: all 0.3s ease;
+}
+
+a:hover {
+    opacity: 0.8;
+}
+
+.navlink-active {
+    color: #3b82f6;
+    font-weight: 600;
 }

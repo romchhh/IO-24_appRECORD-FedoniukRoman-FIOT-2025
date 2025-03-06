@@ -1,35 +1,37 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Navigation from "./components/Navigation.jsx";
-import Laboratorna1 from "./pages/Laboratorna_1.jsx";
-import Laboratorna2 from "./pages/Laboratorna_2.jsx";
-import Laboratorna3 from "./pages/Laboratorna_3.jsx";
-import Laboratorna4 from "./pages/Laboratorna_4.jsx";
-import Laboratorna5 from "./pages/Laboratorna_5.jsx";
-import Laboratorna6 from "./pages/Laboratorna_6.jsx";
-import Laboratorna7 from "./pages/Laboratorna_7.jsx";
-import Laboratorna8 from "./pages/Laboratorna_8.jsx";
-import Laboratorna9 from "./pages/Laboratorna_9.jsx";
+import Lab1 from "./pages/Lab1.jsx";
+import Lab2 from "./pages/Lab2.jsx";
+import Lab3 from "./pages/Lab3.jsx";
+import Lab4 from "./pages/Lab4.jsx";
+import Lab5 from "./pages/Lab5.jsx";
+import Lab6 from "./pages/Lab6.jsx";
+import Lab7 from "./pages/Lab7.jsx";
+import Lab8 from "./pages/Lab8.jsx";
+import Lab9 from "./pages/Lab9.jsx";
 import MainText from "./components/MainText.jsx";
 
 
 const MyComponent = () => {
     return (
         <Router>
-            <div className='px-4 sm:px-[5vw] md:px-[7vw] lg:px-[9vw]'>
+            <div className='px-4 sm:px-[5vw] md:px-[7vw] lg:px-[9vw] min-h-screen bg-gradient-to-b from-white to-blue-50'>
                 <MainText/>
                 <Navigation/>
-                <Routes>
-                    <Route path="/IO-24_appRECORD-PetrenkoAndrew-FIOT-2025/l1" element={<Laboratorna1/>} />
-                    <Route path="/IO-24_appRECORD-PetrenkoAndrew-FIOT-2025/l2" element={<Laboratorna2/>} />
-                    <Route path="/IO-24_appRECORD-PetrenkoAndrew-FIOT-2025/l3" element={<Laboratorna3/>} />
-                    <Route path="/IO-24_appRECORD-PetrenkoAndrew-FIOT-2025/l4" element={<Laboratorna4/>} />
-                    <Route path="/IO-24_appRECORD-PetrenkoAndrew-FIOT-2025/l5" element={<Laboratorna5/>} />
-                    <Route path="/IO-24_appRECORD-PetrenkoAndrew-FIOT-2025/l6" element={<Laboratorna6/>} />
-                    <Route path="/IO-24_appRECORD-PetrenkoAndrew-FIOT-2025/l7" element={<Laboratorna7/>} />
-                    <Route path="/IO-24_appRECORD-PetrenkoAndrew-FIOT-2025/l8" element={<Laboratorna8/>} />
-                    <Route path="/IO-24_appRECORD-PetrenkoAndrew-FIOT-2025/l9" element={<Laboratorna9/>} />
-                </Routes>
+                <div className="bg-white rounded-lg shadow-md p-4 my-6">
+                    <Routes>
+                        <Route path="/IO-24_appRECORD-FedoniukRoman-FIOT-2025/L1" element={<Lab1/>} />
+                        <Route path="/IO-24_appRECORD-FedoniukRoman-FIOT-2025/L2" element={<Lab2/>} />
+                        <Route path="/IO-24_appRECORD-FedoniukRoman-FIOT-2025/L3" element={<Lab3/>} />
+                        <Route path="/IO-24_appRECORD-FedoniukRoman-FIOT-2025/L4" element={<Lab4/>} />
+                        <Route path="/IO-24_appRECORD-FedoniukRoman-FIOT-2025/L5" element={<Lab5/>} />
+                        <Route path="/IO-24_appRECORD-FedoniukRoman-FIOT-2025/L6" element={<Lab6/>} />
+                        <Route path="/IO-24_appRECORD-FedoniukRoman-FIOT-2025/L7" element={<Lab7/>} />
+                        <Route path="/IO-24_appRECORD-FedoniukRoman-FIOT-2025/L8" element={<Lab8/>} />
+                        <Route path="/IO-24_appRECORD-FedoniukRoman-FIOT-2025/L9" element={<Lab9/>} />
+                    </Routes>
+                </div>
             </div>
         </Router>
     );

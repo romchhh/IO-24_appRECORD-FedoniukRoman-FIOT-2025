@@ -1,8 +1,8 @@
 import React from 'react'
 
-const Laboratorna9 = () => {
+const Lab9 = () => {
     return (
         <div>Laboratorna9</div>
     )
 }
-export default Laboratorna9
+export default Lab9
